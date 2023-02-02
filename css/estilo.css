@@ -109,12 +109,21 @@ footer{
 */
 
 .navbar{
-    background-color:red;
+    width: auto;
+    background-color: #aa66cc;
 }
+
 
 .carousel-inner{
     height: 800px;
     max-height: 50rem;
+}
+
+.contain-flex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(240, 191, 191);
 }
 
 .logos img{
