@@ -5,71 +5,131 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mascoteros</title>
-    <link rel="stylesheet" href="./estilos/estilo.css">
-    <link rel = "icon" type = "imagen/jpg" href = "Iconos/icono.jpg">
+    <link rel = "icon" type = "imagen/jpg" href = "../Iconos/icono.jpg">
+
+    <!--Enlaces de bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+     <!--Enlace de animaciones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--Enlace de estilos propios-->
+    <link rel="stylesheet" href="../css/estilo.css">
+    
 
 </head>
 
 <body>
     <header>
-        <a class="icono" href="index.html"> 
-            <img src="./Iconos/icono.jpg" alt="Mascoteros">
-            <h2>Mascoteros, entenderlos es amarlos</h2>
-        </a>
-        
-        <nav>
-            <a href="index.html"> Inicio</a>
-            <a href="guia.html"> Guias </a></li>
-            <a href="quienes.html"> Quienes somos </a></li>
-            <a href="contacto.html"> Contactos</a></li>     
-        </nav>
+        <nav class="navbar navbar-expand-lg text-white">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">Mascoteros</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Guias
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="../html/perro.html">Perros</a></li>
+                      <li><a class="dropdown-item" href="../html/gato.html">Gatos</a></li>
+                      <li><a class="dropdown-item" href="../html/pajaro.html">Aves</a></li>
+                      <li><a class="dropdown-item" href="../html/reptiles.html">Reptiles</a></li>
+                      <li><a class="dropdown-item" href="../html/ratas.html">Ratas</a></li>
+                      <li><a class="dropdown-item" href="../html/otros.html">Otros</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="../html/quienes.html">Quienes somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="../html/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
 
     <main>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, fugiat repellat dolor molestiae nihil, eveniet, 
-            ea iusto incidunt minus et magnam aut maiores earum? Quae maxime, cum doloribus, assumenda deserunt fugiat sint 
-            recusandae accusantium non ipsam atque veniam voluptas! Expedita consectetur quibusdam, facere debitis vitae illum 
-            adipisci quasi quod quisquam porro, dignissimos iusto rerum esse consequuntur nihil consequatur deserunt? 
-            Veniam nulla itaque temporibus, deserunt nesciunt, modi debitis, possimus nemo perferendis voluptatem aliquid 
-            tempore fugiat impedit eius et consectetur non repellat. Minus, officia similique quas, quidem ut neque accusantium 
-            vitae labore facere numquam nihil dolore quam deserunt, corrupti velit eaque cupiditate!</p>
+        <section class="guias quienes">
+            <a href="./index.html"><img src="../imagenes/mujer mascota.jpg" class="imagenQuienes" alt=""></a>  
+            <div>
+                <h3>¿Quienes somos?</h3> 
+                <p>Somos un grupo de personas que ama a los animales. Para esparcir nuestro amor 
+                hemos decidido crear una web con el fin de ayudarte a entender mejor a tu mascota. Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Praesentium, suscipit in error illo nihil pariatur hic eius velit distinctio dignissimos iste ut veniam, animi, sed voluptas odio ipsam reiciendis. 
+                Voluptatum quaerat soluta dignissimos eaque aperiam? Reiciendis, nobis. Fugiat praesentium soluta quod deleniti exercitationem officia consequatur
+                a nesciunt omnis iusto. Quae?
+                </p>
+            </div>  
+            </div>    
+        </section> 
     </main>
-    <footer class = "pie">
-        <div class = "arribaFooter">
-            <div class = "box">
-                <a href="index.html">
-                    <img src="./Iconos/icono.jpg" alt="Mascoteros">
-                </a>
-            </div>
-            <div class = "box">
-                <h2>Contacto</h2>
-                        <p>Teléfono: 11-2222-3333
-                        Dirección: Av. 14 de enero 1712
-                        Correo: contacto@mascoteros.com.ar
-                        Fax: 555-1234
-                        </p>
-            </div>
-            <div class = "box">
-                <h2>SIGUENOS</h2>
-                <div>
-                    <a href="#">
-                        <img src="./imagenes/Facebbok.jpg" alt="">
-                    </a>
-                    <a href="#">
-                        <img src="./imagenes/Twitter.jpg" alt="">
-                    </a>
-                    <a href="#">
-                        <img src="./imagenes/Instagram.png" alt="">
-                    </a>      
+ 
+    <div class="container-fluid">
+        <div class="row p-5 colorFooter text-white">
+          <div class="col-xs-12 col-md-6 col-lg-3">
+            <p class="h3">Mascoteros</p>
+              <a href="../index.html"></a>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-3 mg-3">
+            <p class="h5">Guias</p> 
+              <div class="mg-2">
+                <a class= "text-white text-decoration-none" href="../html/perro.html">Perros</a></li>
+              </div>
+              <div class="mg-2">
+                <a class= "text-white text-decoration-none" href="../html/gato.html">Gatos</a></li>  
+              </div>
+              <div class="mg-2">
+                <a class= "text-white text-decoration-none" href="../html/pajaro.html">Aves</a></li>  
+              </div>
+              <div class="mg-2">
+                <a class= "text-white text-decoration-none" href="../html/reptiles.html">Reptiles</a></li> 
+              </div>
+              <div class="mg-2">
+                <a class= "text-white text-decoration-none" href="../html/ratas.html">Ratas</a></li>
+              </div>
+              <div class="mg-2">
+                <a class= "text-white text-decoration-none" href="../html/otros.html">Otros</a></li>
+              </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-3 mg-3">
+            <p class="h5">Quienes somos</p>
+              <div class="mg-2">
+                <div class="mg-2">
+                  <a class= "text-white text-decoration-none" href="../html/quienes.html">Nosotros</a></li>
                 </div>
+                <div class="mg-2">
+                  <a class= "text-white text-decoration-none" href="../html/contacto.html">Medios de contacto</a></li>
+                </div>
+              </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-3 mg-3">
+            <p class="h5">Redes</p>
+              <div class="mg-2">
+                <a class= "text-white text-decoration-none" href="#">Facebook</a></li>
+              </div>
+              <div class="mg-2">
+                <a class= "text-white text-decoration-none" href="#">Instagram</a></li>
+              </div>
+              <div class="mg-2">
+                <a class= "text-white text-decoration-none" href="#">Twitter</a></li>
+              </div>
             </div>
-
+          </div>
+          
+        </div>    
+        <div class="col-xl-12 colorFooter">
+          <p class="text-white text-center">©2023 Mascoteros - Todos los derechos reservados</p>
         </div>
-        <div class = "abajoFooter">
-            <p>©2023 Mascoteros - Todos los derechos reservados</p>
-        </div>
-    </footer>
-    
+      </div> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
 </body>
 
 
