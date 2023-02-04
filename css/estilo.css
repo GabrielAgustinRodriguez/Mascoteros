@@ -6,7 +6,7 @@
 
 .carousel-inner{
     height: 800px;
-    max-height: 50rem;
+    max-height: 60rem;
 }
 
 .contain-flex{
@@ -43,18 +43,13 @@
 }
 
 .imagenQuienes{
-    height: 300px;
-    width: 450px;
+    height: 175px;
+    width: 300px;
     border-radius: 20%;
 }
 
 .quienes{
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
-    width: 50%;
-    margin: 15px auto;
-    border-radius: 20%;
+    background-image: url(../imagenes/fondo.png);
 }
 
 .quienes h1{
