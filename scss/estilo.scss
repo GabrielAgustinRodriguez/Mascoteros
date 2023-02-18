@@ -1,0 +1,65 @@
+$colorNav: #aa66cc;
+
+.navbar{
+    width: auto;
+    background-color: $colorNav;
+}
+
+
+.carousel-inner{
+    height: 800px;
+    max-height: 60rem;
+}
+
+.contain-flex{
+    background-color: rgb(240, 191, 191);
+}
+
+.logos img{
+    height: 300px;
+    width: 420px;
+    margin: 5px;
+    border-radius: 7%;
+}
+
+.colorFooter{
+    background-color: $colorNav;
+}
+
+.Crianza img{
+    height: 360px;
+    margin: 5px;
+}
+.Crianza{
+    color: black;
+    font-weight: 500;
+}
+
+.guias{
+    background-image: url(../imagenes/fondo.png);  
+}
+
+.imagenContacto{
+    height: 150px;
+    width: 210px;
+}
+
+.imagenQuienes{
+    height: 175px;
+    width: 300px;
+    border-radius: 20%;
+}
+
+.quienes{
+    background-image: url(../imagenes/fondo.png);
+    h1{
+        margin: 15px;
+        margin: 0;
+    }    
+    p{
+        color: black;
+        font-weight: 500;
+        margin: 15px;
+    }
+}
+
