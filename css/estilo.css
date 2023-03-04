@@ -4,11 +4,6 @@
 }
 
 
-.carousel-inner{
-    height: 800px;
-    max-height: 60rem;
-}
-
 .contain-flex{
     background-color: rgb(240, 191, 191);
 }
@@ -24,17 +19,17 @@
     background-color: #aa66cc;
 }
 
+/*.Crianza img{
+    
+}*/
+
 .Crianza img{
-    height: 360px;
     margin: 5px;
-}
-.Crianza{
-    color: black;
-    font-weight: 500;
+    width: 40%;
 }
 
 .guias{
-    background-image: url(../imagenes/fondo.png);  
+    background-color: #F2DC5D; 
 }
 
 .imagenContacto{
@@ -62,6 +57,12 @@
     font-weight: 500;
     margin: 15px;
 }
-.colorLetra{
-    color: rgb(255, 255, 255);
+
+.letraGuias{
+    font-family: 'Lato', sans-serif;
+    color: #551a80;
+}
+
+.letraGuias h3{
+    font-weight: 1000;
 }

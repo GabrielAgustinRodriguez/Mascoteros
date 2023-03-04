@@ -21,23 +21,23 @@
     <header>
       
       <!--NAV-->
-        <nav class="navbar navbar-expand-lg text-white">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-              <a class="navbar-brand" href="./index.html">Mascoteros</a>
+              <a class="navbar-brand text-white" href="./index.html">Mascoteros</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse colorLetra" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 colorLetra">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page colorLetra" href="./index.html">Home</a>
+                    <a class="nav-link active text-white" aria-current="page" href="./index.html">Home</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle active text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Guias
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item " href="./html/perro.html">Perros</a></li>
+                      <li><a class="dropdown-item" href="./html/perro.html">Perros</a></li>
                       <li><a class="dropdown-item" href="./html/gato.html">Gatos</a></li>
                       <li><a class="dropdown-item" href="./html/pajaro.html">Aves</a></li>
                       <li><a class="dropdown-item" href="./html/reptiles.html">Reptiles</a></li>
@@ -46,10 +46,10 @@
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="./html/quienes.html">Quienes somos</a>
+                    <a class="nav-link active text-white" href="./html/quienes.html">Quienes somos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="./html/contacto.html">Contacto</a>
+                    <a class="nav-link active text-white" href="./html/contacto.html">Contacto</a>
                   </li>
                 </ul>
               </div>
@@ -59,39 +59,52 @@
 
     <main>
 
-      <!--CAROUSEL-->
+      <!--Carousel-->
 
       <section>
-   
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+        <div id="carouselExampleCaptions" class="carousel slide">
           <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
           <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="2500">
+            <div class="carousel-item active">
               <img src="./imagenes/Familia mascota.jpg" class="d-block w-100" alt="Imagen familia">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Mascoteros</h5>
+                <p>Entenderlos es amarlos. Guia para mascotas.</p>
+              </div>
             </div>
-            <div class="carousel-item" data-bs-interval="2500">
+            <div class="carousel-item">
               <img src="./imagenes/mascota.jpg" class="d-block w-100" alt="Imagen mascotas">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Eligue tu compañero!</h5>
+                <p>Visita nuestras distintas guias según tu compañero.</p>
+              </div>
             </div>
-            <div class="carousel-item" data-bs-interval="2500">
+            <div class="carousel-item">
               <img src="./imagenes/carousel 3.jpg" class="d-block w-100" alt="Publicidad 1">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Amalos</h5>
+                <p>Amarlos es más que un sentimiento, es entender sus necesidades, preocupaciones e intereses.</p>
+              </div>
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
-          </button> 
-        </div>  
-        
-      </section>
-        
+          </button>
+        </div>
+
+      </section>  
+      
+
       <!--CUERPO-->
 
       <section class="col-xl-12 text-center contain-flex">
