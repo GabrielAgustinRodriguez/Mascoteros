@@ -13,95 +13,139 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!--Enlace de estilos propios-->
     <link rel="stylesheet" href="../css/estilo.css">
+    <!--Enlace de letra-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
     
 
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg text-white">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="../index.html">Mascoteros</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Guias
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="../html/perro.html">Perros</a></li>
-                      <li><a class="dropdown-item" href="../html/gato.html">Gatos</a></li>
-                      <li><a class="dropdown-item" href="../html/pajaro.html">Aves</a></li>
-                      <li><a class="dropdown-item" href="../html/reptiles.html">Reptiles</a></li>
-                      <li><a class="dropdown-item" href="../html/ratas.html">Ratas</a></li>
-                      <li><a class="dropdown-item" href="../html/otros.html">Otros</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="../html/quienes.html">Quienes somos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="../html/contacto.html">Contacto</a>
-                  </li>
-                </ul>
-              </div>
+  <header>
+      
+    <!--NAV-->
+      <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand text-white" href="../index.html">Mascoteros</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse colorLetra" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 colorLetra">
+                <li class="nav-item">
+                  <a class="nav-link active text-white" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Guias
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./perro.html">Perros</a></li>
+                    <li><a class="dropdown-item" href="./gato.html">Gatos</a></li>
+                    <li><a class="dropdown-item" href="./pajaro.html">Aves</a></li>
+                    <li><a class="dropdown-item" href="./reptiles.html">Reptiles</a></li>
+                    <li><a class="dropdown-item" href="./ratas.html">Ratas</a></li>
+                    <li><a class="dropdown-item" href="./otros.html">Otros</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-white" href="./quienes.html">Quienes somos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-white" href="./contacto.html">Contacto</a>
+                </li>
+              </ul>
             </div>
-          </nav>
-    </header>
+          </div>
+        </nav>
+  </header>
 
     <main>
         <section class="guias">
-            <div class = "Crianza text-center">
+            <div class = "Crianza text-center letraGuias">
                 <img src="../imagenes/Rata.jpg">
-                <div class="animate__animated animate__rubberBand">   
+                <div class="animate__animated animate__rubberBand letraGuias">   
                     <h3>Crianza:</h3>
                 </div>
+
                 <div>
-                    <p>1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis fuga illo quasi laboriosam saepe corporis.</p>
+                  <h3 class="animate__animated animate__fadeInDown">Buen ambiente</h3> 
+                  <h5>En primer lugar, es importante proporcionar un ambiente seguro y limpio para la rata, con una jaula espaciosa que tenga una adecuada ventilación 
+                    y un sustrato adecuado en el fondo para mantener la higiene.</h5>
                 </div>
                 <div>
-                    <p>2 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis fuga illo quasi laboriosam saepe corporis.</p>
+                    <h3 class="animate__animated animate__fadeInDown">Bonitos y gorditos</h3>
+                    <h5>La alimentación de las ratas debe ser balanceada y variada, incluyendo alimentos secos, como el pienso comercial para ratas, 
+                      así como frutas y verduras frescas, proteínas y suplementos alimenticios.</h5>
                 </div>
                 <div>
-                    <p>3 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis fuga illo quasi laboriosam saepe corporis.</p>
+                    <h3 class="animate__animated animate__fadeInDown">Un amigo es una luz</h3>
+                      <h5>Las ratas son animales sociales, por lo que se recomienda mantenerlas en parejas o grupos para evitar la soledad y el aburrimiento. 
+                        También necesitan ejercicio diario y tiempo de juego fuera de la jaula.</h5>
                 </div>
-            </div>      
+                <div>
+                  <h3 class="animate__animated animate__fadeInDown">Siempre al Doc</h3>
+                    <h5>Es importante monitorear la salud de las ratas y llevarlas al veterinario si presentan algún signo de enfermedad o lesión.</h5>
+              </div>
+          </div>      
     
-            <div class = "Crianza text-center">
+            <div class = "Crianza text-center letraGuias">
                 <img src="../imagenes/rata alimentacion.jpg">
                 <div class="animate__animated animate__rubberBand">   
                     <h3>Alimentación:</h3>
                 </div>
                 <div>
-                    <p>1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis fuga illo quasi laboriosam saepe corporis.</p>
-                </div>
-                <div>
-                    <p>2 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis fuga illo quasi laboriosam saepe corporis.</p>
-                </div>
-                <div>
-                    <p>3 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis fuga illo quasi laboriosam saepe corporis.</p>
-                </div>
+                    <h3 class="animate__animated animate__fadeInDown">¿Cómo alimentar a tu rata correctamente?</h3>
+                    <h5>Las ratas son omnívoras, lo que significa que comen tanto alimentos de origen vegetal como animal. En la naturaleza, se alimentan de una variedad 
+                      de alimentos, incluyendo granos, frutas, semillas, insectos, pequeños mamíferos y aves.
+
+                      Como mascotas, las ratas deben ser alimentadas con una dieta balanceada que contenga una mezcla de proteínas, carbohidratos y grasas. El pienso 
+                      comercial para ratas es una buena opción como base de la dieta, pero también se puede complementar con frutas y verduras frescas, así como 
+                      proteínas como carne, pescado, huevos y queso.
+                      
+                      Es importante evitar alimentos grasosos, azucarados o salados, ya que pueden ser perjudiciales para la salud de la rata. También es importante 
+                      proporcionar agua fresca y limpia en todo momento.</h5>
+                
             </div>   
     
-            <div class = "Crianza text-center">
-                <img src="../imagenes/rata 2.jpg">
+            <div class = "Crianza text-center letraGuias">
+              <img src="../imagenes/rata 2.jpg">
                 <div class="animate__animated animate__rubberBand">   
-                    <h3>Otros datos útiles:</h3>
+                    <h3>¿Cómo jugar con tu rata?</h3>
                 </div>
                 <div>
-                    <p>1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis fuga illo quasi laboriosam saepe corporis.</p>
+                  <h5>Las ratas son animales sociales y pueden ser mascotas muy amigables y juguetonas. Aquí te presento algunos consejos sobre cómo jugar con una rata:</h5>
                 </div>
                 <div>
-                    <p>2 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis fuga illo quasi laboriosam saepe corporis.</p>
+                  <h3 class="animate__animated animate__fadeInDown">Usa juguetes</h3>
+                  <h5>Las ratas adoran jugar con juguetes. Proporciónales juguetes seguros y adecuados para su tamaño, como pelotas, túneles, y mordedores.</h5>
                 </div>
                 <div>
-                    <p>3 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis fuga illo quasi laboriosam saepe corporis.</p>
+                  <h3 class="animate__animated animate__fadeInDown">Deja que te olfateen</h3>
+                  <h5>Las ratas tienen un gran sentido del olfato y les gusta olfatear a sus dueños para conocerlos mejor. Deja que la rata te huela y se familiarice con tu olor.</h5>
+                </div>
+                <div>
+                  <h3 class="animate__animated animate__fadeInDown">Dale tiempo para explorar</h3>
+                  <h5>Deja que la rata explore su entorno y te acompañe mientras lo hace. Esto le permitirá sentirse más cómoda y segura en tu presencia.</h5>
+                </div>
+                <div>
+                  <h3 class="animate__animated animate__fadeInDown">Enséñale trucos</h3>
+                  <h5>Las ratas pueden aprender trucos, como subir por una escalera o buscar un objeto específico. Utiliza golosinas para ratas para incentivar su aprendizaje y 
+                    refuerzo positivo.
+                  </h5>
+                </div>
+                <div>
+                  <h3 class="animate__animated animate__fadeInDown">Juega a perseguir</h3>
+                  <h5> Las ratas disfrutan jugar a perseguir y ser perseguidas. Siéntate en el suelo con la rata y mueve tus manos para que las persiga.</h5>
+                </div>
+                <div>
+                  <h3 class="animate__animated animate__fadeInDown">Dale caricias</h3>
+                  <h5> A muchas ratas les gusta que les acaricien y les hagan mimos. Acaricia suavemente su cabeza, cuello y lomo.</h5>
+                </div>
+                <div>
+                  <h5> Es importante tener en cuenta que cada rata es diferente y puede tener preferencias diferentes en cuanto a juegos y caricias. Asegúrate de 
+                    observar las señales de la rata y respetar su comodidad y seguridad en todo momento.</h5>
                 </div>
             </div>   
         </section>

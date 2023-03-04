@@ -13,95 +13,76 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!--Enlace de estilos propios-->
     <link rel="stylesheet" href="../css/estilo.css">
+    <!--Enlace de letra-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
     
 
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg text-white">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="../index.html">Mascoteros</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Guias
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="../html/perro.html">Perros</a></li>
-                      <li><a class="dropdown-item" href="../html/gato.html">Gatos</a></li>
-                      <li><a class="dropdown-item" href="../html/pajaro.html">Aves</a></li>
-                      <li><a class="dropdown-item" href="../html/reptiles.html">Reptiles</a></li>
-                      <li><a class="dropdown-item" href="../html/ratas.html">Ratas</a></li>
-                      <li><a class="dropdown-item" href="../html/otros.html">Otros</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="../html/quienes.html">Quienes somos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="../html/contacto.html">Contacto</a>
-                  </li>
-                </ul>
-              </div>
+  <header>
+      
+    <!--NAV-->
+      <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand text-white" href="../index.html">Mascoteros</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse colorLetra" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 colorLetra">
+                <li class="nav-item">
+                  <a class="nav-link active text-white" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Guias
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./perro.html">Perros</a></li>
+                    <li><a class="dropdown-item" href="./gato.html">Gatos</a></li>
+                    <li><a class="dropdown-item" href="./pajaro.html">Aves</a></li>
+                    <li><a class="dropdown-item" href="./reptiles.html">Reptiles</a></li>
+                    <li><a class="dropdown-item" href="./ratas.html">Ratas</a></li>
+                    <li><a class="dropdown-item" href="./otros.html">Otros</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-white" href="./quienes.html">Quienes somos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-white" href="./contacto.html">Contacto</a>
+                </li>
+              </ul>
             </div>
-          </nav>
-    </header>
+          </div>
+        </nav>
+  </header>
 
     <main>
         <section class="guias">
-            <div class = "Crianza text-center">
+            <div class = "Crianza text-center letraGuias">
+              <h3>Proximamente encontrarás guias de...</h3>
                 <img src="../imagenes/Hormiga.jpg">
-                <div class="animate__animated animate__rubberBand">   
-                    <h3>Crianza:</h3>
+                <div class="animate__animated animate__rubberBand letraGuias">   
+                    <h3>Hormigas</h3>
                 </div>
-                <div>
-                    <p>1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis fuga illo quasi laboriosam saepe corporis.</p>
-                </div>
-                <div>
-                    <p>2 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis fuga illo quasi laboriosam saepe corporis.</p>
-                </div>
-                <div>
-                    <p>3 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis fuga illo quasi laboriosam saepe corporis.</p>
-                </div>
-            </div>      
+
+          </div>      
     
-            <div class = "Crianza text-center">
+            <div class = "Crianza text-center letraGuias">
                 <img src="../imagenes/huron.jpg">
                 <div class="animate__animated animate__rubberBand">   
-                    <h3>Alimentación:</h3>
-                </div>
-                <div>
-                    <p>1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis fuga illo quasi laboriosam saepe corporis.</p>
-                </div>
-                <div>
-                    <p>2 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis fuga illo quasi laboriosam saepe corporis.</p>
-                </div>
-                <div>
-                    <p>3 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis fuga illo quasi laboriosam saepe corporis.</p>
+                    <h3>Hurones</h3>
                 </div>
             </div>   
     
-            <div class = "Crianza text-center">
-                <img src="../imagenes/capybara.jpg">
+            <div class = "Crianza text-center letraGuias">
+              <img src="../imagenes/capybara.jpg">
                 <div class="animate__animated animate__rubberBand">   
-                    <h3>Otros datos útiles:</h3>
-                </div>
-                <div>
-                    <p>1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis fuga illo quasi laboriosam saepe corporis.</p>
-                </div>
-                <div>
-                    <p>2 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis fuga illo quasi laboriosam saepe corporis.</p>
-                </div>
-                <div>
-                    <p>3 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis fuga illo quasi laboriosam saepe corporis.</p>
+                    <h3>Carpinchos-Capybaras</h3>
                 </div>
             </div>   
         </section>
@@ -166,7 +147,7 @@
         <div class="col-xl-12 colorFooter">
           <p class="text-white text-center">©2023 Mascoteros - Todos los derechos reservados</p>
         </div>
-      </div>  
+      </div> 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
     </script>
 </body>
