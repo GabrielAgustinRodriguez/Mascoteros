@@ -19,9 +19,6 @@
     background-color: #aa66cc;
 }
 
-/*.Crianza img{
-    
-}*/
 
 .Crianza img{
     margin: 5px;
@@ -30,32 +27,6 @@
 
 .guias{
     background-color: #F2DC5D; 
-}
-
-.imagenContacto{
-    height: 150px;
-    width: 210px;
-}
-
-.imagenQuienes{
-    height: 175px;
-    width: 300px;
-    border-radius: 20%;
-}
-
-.quienes{
-    background-image: url(../imagenes/fondo.png);
-}
-
-.quienes h1{
-    margin: 15px;
-    margin: 0;
-}
-
-.quienes p{
-    color: rgb(0, 0, 0);
-    font-weight: 500;
-    margin: 15px;
 }
 
 .letraGuias{
@@ -68,4 +39,80 @@
 }
 .letraGuias h2{
     font-weight: 1000;
+}
+/************************************/
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  
+.caja{
+    width: 400px;
+    height: 400px;
+    background-color: #ccc;
+    margin: 10px;
+  }
+
+.quienes img{
+    width: 100%;
+    width: 100%;
+  }
+.quienes h5{
+    text-align: center;
+}
+
+.caja{
+    background-color: #e9e4cf;
+}
+
+/************************/
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 20px;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input, textarea {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0062cc;
+  }
+  img{
+    width: 100%;
+    width: 100%;
+  }
+  h5{
+    text-align: center;
+  }
+
+.fondoContacto{
+    background-image: url('../imagenes/fondo.png');
 }
