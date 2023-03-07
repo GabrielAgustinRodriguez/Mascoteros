@@ -1,65 +1,81 @@
-$colorNav: #aa66cc;
+$color-principal: #aa66cc;
+$color-secundario: rgb(240, 191, 191);
+$color-logos: #d7aadd;
+$color-guias: #F2DC5D;
+$color-letra-guias: #551a80;
+$color-caja: #e9e4cf;
+$color-botones: #007bff;
 
 .navbar{
     width: auto;
-    background-color: $colorNav;
-}
-
-
-.carousel-inner{
-    height: 800px;
-    max-height: 60rem;
+    background-color: $color-principal;
 }
 
 .contain-flex{
-    background-color: rgb(240, 191, 191);
+    background-color: $color-secundario;
 }
 
-.logos img{
-    height: 300px;
-    width: 420px;
-    margin: 5px;
-    border-radius: 7%;
+.logos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: $color-logos;
+
+        img{
+        width: 100%;
+        height: 300px;
+        margin: 10px;
+        padding: 5px;
+        border-radius: 5%;
+        }
 }
 
 .colorFooter{
-    background-color: $colorNav;
+    background-color: $color-principal;
 }
 
 .Crianza img{
-    height: 360px;
     margin: 5px;
-}
-.Crianza{
-    color: black;
-    font-weight: 500;
+    width: 40%;
 }
 
 .guias{
-    background-image: url(../imagenes/fondo.png);  
+    background-color: $color-guias;
+
+    .letraGuias{
+        font-family: 'Lato', sans-serif;
+        color: $color-letra-guias;
+
+        }
 }
 
-.imagenContacto{
-    height: 150px;
-    width: 210px;
+/************************************/
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 
-.imagenQuienes{
-    height: 175px;
-    width: 300px;
-    border-radius: 20%;
+.caja{
+    width: 400px;
+    height: 400px;
+    background-color: $color-caja;
+    margin: 10px;
 }
 
 .quienes{
-    background-image: url(../imagenes/fondo.png);
-    h1{
-        margin: 15px;
-        margin: 0;
-    }    
-    p{
-        color: black;
-        font-weight: 500;
-        margin: 15px;
-    }
+    img{
+    width: 100%;
+    width: 100%;
 }
 
+}
+
+/************************/
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
